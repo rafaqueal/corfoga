@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-WriteEngine On
+RewriteEngine On
 RewriteBase /laravel/public/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
